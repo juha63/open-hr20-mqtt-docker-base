@@ -1,4 +1,4 @@
-lFROM arm32v7/debian:buster-slim
+FROM arm32v7/debian:buster-slim
 
 ADD https://github.com/just-containers/s6-overlay/releases/download/v2.1.0.0/s6-overlay-armhf.tar.gz /tmp/s6-overlay.tar.gz
 
